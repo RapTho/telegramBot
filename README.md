@@ -9,7 +9,7 @@ One of the bot's skills is to see what you see
 ![Visual Recognition](.ignoreGIFS/visualRecognition.gif)
 
 ## Speech to Text
-Also you can dictate your bot something and it will transcribe the spoken words for you. Supported languages are:
+Also, you can dictate your bot something and it will transcribe the spoken words for you. The supported languages are:
 - English
 - French
 - German
