@@ -7,7 +7,7 @@ One skill will be to make your bot see what you see
 ![Visual Recognition](.ignoreGIFS/visualRecognition.gif)
 
 ## Speech to Text
-Also you can dictate your bot a text and it will transcribe it for you. Supported languages are:
+Also you can dictate your bot something and it will transcribe the spoken words for you. Supported languages are:
 - English
 - French
 - German
@@ -20,12 +20,12 @@ Also you can dictate your bot a text and it will transcribe it for you. Supporte
 ![Speech to Text](.ignoreGIFS/transcribe.gif)
 
 ## Translation
-The bot can also assist you with translations. It will automatically detect which language the input text has and translate it to the user desired output language.
+The bot can also assist you with translations. It will automatically detect which language the input has and translate it to the user desired output language.
 
 ![Translate](.ignoreGIFS/translate.gif)
 
 ## Weather forecast
-Get the latest weather update directly on your smartphone by asking your bot. The location is picked from your input and then translated into coordinates by a third party. These coordinates query the Weather Company database and return accurate results.
+Get the latest weather updates directly on your smartphone by asking your bot for it. The location is picked from your input and then translated into coordinates by a third party. These coordinates will be used to query the Weather Company database and return accurate results.
 
 ![Weather forecast](.ignoreGIFS/weather.gif)
 
