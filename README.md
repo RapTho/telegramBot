@@ -3,6 +3,7 @@ This is a code repo that shares my personal telegram bot. The bot is kind of a d
 
 ## Visual Recognition
 One skill will be to make your bot see what you see
+
 ![Visual Recognition](.ignoreGIFS/visualRecognition.gif)
 
 ## Speech to Text
@@ -15,14 +16,17 @@ Also you can dictate your bot a text and it will transcribe it for you. Supporte
 - Korean
 - Chinese (Mandarin)
 - Arabic
+
 ![Speech to Text](.ignoreGIFS/transcribe.gif)
 
 ## Translation
 The bot can also assist you with translations. It will automatically detect which language the input text has and translate it to the user desired output language.
+
 ![Translate](.ignoreGIFS/translate.gif)
 
 ## Weather forecast
 Get the latest weather update directly on your smartphone by asking your bot. The location is picked from your input and then translated into coordinates by a third party. These coordinates query the Weather Company database and return accurate results.
+
 ![Weather forecast](.ignoreGIFS/weather.gif)
 
 ## Requirements
