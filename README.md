@@ -5,7 +5,7 @@ This is a code repo that shares my personal telegram bot. The bot is kind of a d
 This is a glimps at what the final result will look like
 
 ## Visual Recognition
-
+[Visual Recognition](.ignoreGIFs/visualRecognition.gif)
 ## Speech to Text
 
 ## Translation
