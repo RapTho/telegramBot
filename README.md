@@ -5,7 +5,7 @@ This is a code repo that shares my personal telegram bot. The bot is kind of a d
 - Free [IBM Cloud](https://www.ibm.com/cloud/) account
 - Bot created with Telegram's [Botfather](https://core.telegram.org/bots)
 - Free [opencagedata](https://opencagedata.com/) account
-- The Telegram messanger installed on your smartphone
+- The [Telegram messanger](https://telegram.org/) installed on your smartphone
 
 ##IBM Cloud services
 The following IBM Cloud services need to be instinciated. Free/light plan is always sufficient.
