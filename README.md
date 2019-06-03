@@ -4,7 +4,7 @@ This is a code repo that shares my personal telegram bot. The bot is a side proj
 The Node-RED server in this example is hosted on the IBM cloud but it can just as well run on any local device such as a Raspberry Pi or other servers/desktops/laptops as long as they have internet access.
 
 ## Visual Recognition
-One skill will be to make your bot see what you see
+One of the bot's skills is to see what you see
 
 ![Visual Recognition](.ignoreGIFS/visualRecognition.gif)
 
