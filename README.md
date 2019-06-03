@@ -36,7 +36,7 @@ Get the latest weather updates directly on your smartphone by asking your bot fo
 - The [Telegram messanger](https://telegram.org/) installed on your smartphone
 
 ## IBM Cloud services
-The following IBM Cloud services need to be instinciated. Free/light plan is always sufficient.
+The following IBM Cloud services need to be instantiated. Free/light plans are always sufficient. No need to add any payment method. Students can get more resources [here](https://ibm.onthehub.com/WebStore/OfferingDetails.aspx?o=142ecca8-0403-e911-810e-000d3af41938)
 - [Watson Assistant](https://www.ibm.com/cloud/watson-assistant/)
 - [Watson Visual Recognition](https://www.ibm.com/watson/services/visual-recognition/)
 - [Watson Speech-to-Text](https://www.ibm.com/watson/services/speech-to-text/)
