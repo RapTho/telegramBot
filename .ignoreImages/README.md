@@ -1,1 +1,1 @@
-This are just GIFs for the other README.md files
+This are just images/GIFs for the other README.md files
