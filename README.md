@@ -5,7 +5,7 @@ This is a code repo that shares my personal telegram bot. The bot is a side proj
 ## Visual Recognition
 One of the bot's skills is to see what you see
 
-![Visual Recognition](.ignoreGIFS/visualRecognition.gif)
+![Visual Recognition](.ignoreImages/visualRecognition.gif)
 
 ## Speech to Text
 Also, you can dictate your bot something and it will transcribe the spoken words for you. The supported languages are:
@@ -18,17 +18,17 @@ Also, you can dictate your bot something and it will transcribe the spoken words
 - Chinese (Mandarin)
 - Arabic
 
-![Speech to Text](.ignoreGIFS/transcribe.gif)
+![Speech to Text](.ignoreImages/transcribe.gif)
 
 ## Translation
 The bot can also assist you with translations. It will automatically detect which language the input has and translate it to the user desired output language.
 
-![Translate](.ignoreGIFS/translate.gif)
+![Translate](.ignoreImages/translate.gif)
 
 ## Weather forecast
 Get the latest weather updates directly on your smartphone by asking your bot for it. The location is picked from your input and then translated into coordinates by a third party. These coordinates will be used to query the Weather Company database and return accurate results.
 
-![Weather forecast](.ignoreGIFS/weather.gif)
+![Weather forecast](.ignoreImages/weather.gif)
 
 ## Requirements
 - Free [IBM Cloud](https://www.ibm.com/cloud/) account
