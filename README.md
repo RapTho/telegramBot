@@ -1,5 +1,6 @@
 # telegramBot 
-This is a code repo that shares my personal telegram bot. The bot is a side project I build combining IBM's Watson AI services and third party APIs. The integration of all services happens on a [Node-RED](https://nodered.org/) server hosted in the [IBM Cloud](https://www.ibm.com/cloud/). All of this is **possible with a free account**.
+This is a code repo that shares my personal telegram bot. The bot is a side project I build combining IBM's Watson AI services and third party APIs. The integration of all services happens on a [Node-RED](https://nodered.org/) server hosted in the [IBM Cloud](https://www.ibm.com/cloud/).
+All of this is **possible with a free account**.
 
 
 ## Visual Recognition
