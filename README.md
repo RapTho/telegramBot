@@ -30,7 +30,7 @@ Get the latest weather updates directly on your smartphone by asking your bot fo
 
 ![Weather forecast](.ignoreImages/weather.gif)
 
-## Requirements
+# Requirements
 - Free [IBM Cloud](https://www.ibm.com/cloud/) account
 - Bot created with Telegram's [Botfather](https://core.telegram.org/bots)
 - Free [opencagedata](https://opencagedata.com/) account
