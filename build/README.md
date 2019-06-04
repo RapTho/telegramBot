@@ -1,7 +1,7 @@
 # Complete flow
 ![Node-RED flow](../.ignoreImages/node-red_complete_flow.png)
 
-## How to get up and running
+## How to get it up and running
 This is the complete flow as I use it. All the credentials have been removed before exporting the flow. 
 
 Make sure you have all required IBM Cloud services and node modules. Check them [here](https://github.com/RapTho/telegramBot/blob/master/README.md#requirements)
