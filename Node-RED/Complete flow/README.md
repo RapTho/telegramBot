@@ -1,5 +1,5 @@
 # Complete flow
-![Node-RED flow](../.ignoreImages/node-red_flow.png)
+![Node-RED flow](../.ignoreImages/node-red_complete_flow.png)
 
 This is the complete flow as I use it. Credentials of the Watson AI nodes have been removed. Also the API key of the http call to opengatedata, which translates the location from word to coordinates, has to be modified the following way:
 
