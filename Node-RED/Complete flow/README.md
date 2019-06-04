@@ -6,7 +6,7 @@ This is the complete flow as I use it. All the credentials have been removed bef
 
 Make sure you have all required IBM Cloud services and node modules. Check them [here](https://github.com/RapTho/telegramBot/blob/master/README.md#requirements)
 
-Copy the "node-red-complete-flow.json" content and import it into your Node-RED instance. See [how it's done](https://nodered.org/docs/user-guide/editor/workspace/import-export)
+Copy the [node-red-complete-flow.json](https://github.com/RapTho/telegramBot/blob/master/Node-RED/Complete%20flow/node-red-complete-flow.json) content and import it into your Node-RED instance. See [how it's done](https://nodered.org/docs/user-guide/editor/workspace/import-export)
 
 Do the same for the Watson Assistant JSON file. Do it like [this](https://developer.ibm.com/tutorials/learn-how-to-export-import-a-watson-assistant-workspace/) or in the Dashboard when creating a new skill.
 
