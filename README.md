@@ -1,7 +1,6 @@
 # telegramBot 
 This is a code repo that shares my personal telegram bot. The bot is a side project I build combining IBM's Watson AI services and third party APIs. The integration of all services happens on a [Node-RED](https://nodered.org/) server hosted in the [IBM Cloud](https://www.ibm.com/cloud/). All of this is **possible with a free account**
 
-The Node-RED server in this example is hosted on the IBM cloud but it can just as well run on any local device such as a Raspberry Pi or other servers/desktops/laptops as long as they have internet access.
 
 ## Visual Recognition
 One of the bot's skills is to see what you see
@@ -54,4 +53,6 @@ The following modules are required and can be installed directly in Node-RED (eq
 - node-red-node-watson
 - node-red-contrib-media-utils
 
+## Final words
+The Node-RED server in this example is hosted on the IBM cloud but it can just as well run on any local device such as a Raspberry Pi or other servers/desktops/laptops as long as they have internet access. Check the [instructions](https://nodered.org/docs/getting-started/installation)
 The subfolders of this repository will explain each skill seperately
