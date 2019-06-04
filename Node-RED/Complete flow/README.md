@@ -2,8 +2,17 @@
 ![Node-RED flow](../../.ignoreImages/node-red_complete_flow.png)
 
 ## How to get up and running
+This is the complete flow as I use it. All the credentials have been removed before exporting the flow. 
 
-This is the complete flow as I use it. Credentials of the Watson AI nodes have been removed. Also the API key of the http call to opengatedata, which translates the location from word to coordinates, has to be modified the following way:
+Make sure you have all required IBM Cloud services and node modules. Check them [here](https://github.com/RapTho/telegramBot/blob/master/README.md#requirements)
+
+Copy the "node-red-complete-flow.json" content and import it into your Node-RED instance. See [how it's done](https://nodered.org/docs/user-guide/editor/workspace/import-export)
+
+Do the same for the Watson Assistant JSON file. Do it like [this](https://developer.ibm.com/tutorials/learn-how-to-export-import-a-watson-assistant-workspace/) or in the Dashboard when creating a new skill.
+
+In the IBM Cloud you can [connect your services to your Node-RED instance](https://cloud.ibm.com/docs/resources?topic=resources-connect_app). This saves you the copy and pasting of your API keys. Otherwise just copy+paste your keys to the required nodes. 
+
+Also the URL of the HTTP GET call to opencagedata, which translates the location from word to coordinates, needs to be modified the following way:
 
 ```
 msg.url = "https://api.opencagedata.com/geocode/v1/json?q=" + msg.loc + "&key=REPLACE_WITH_YOUR_APIKEY&language=en&pretty=1"
@@ -11,10 +20,8 @@ return msg;
 ```
 The variable REPLACE_WITH_YOUR_APIKEY in the URL has to be replaced with your individual API key that you receive after registering at [opencagedata.com](https://opencagedata.com/)
 
-The function node right before the "http get request node" carries the code shown above.
+The function node right before the [HTTP request node](https://cookbook.nodered.org/http/simple-get-request) carries the code shown above.
 
 ## Hints
-- Make sure you have all required IBM Cloud services and node modules. Check them [here](https://github.com/RapTho/telegramBot/blob/master/README.md#requirements)
-- In the IBM Cloud you can [connect your services to your Node-RED instance](https://cloud.ibm.com/docs/resources?topic=resources-connect_app). This saves you the copy and pasting of your API keys. 
-- Increase your Node-RED instance's volume to 1GB to have enough storage for all your content.
+- If necessary increase your Node-RED instance's volume to 1GB to have enough space for all your content.
 - Use the [debug node](https://nodered.org/docs/user-guide/nodes#debug) to find potential errors step by step
