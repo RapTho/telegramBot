@@ -7,6 +7,6 @@ This is the complete flow as I use it. Credentials of the Watson AI nodes have b
 msg.url = "https://api.opencagedata.com/geocode/v1/json?q=" + msg.loc + "&key=REPLACE_WITH_YOUR_APIKEY&language=en&pretty=1"
 return msg;
 ```
-The variable in REPLACE_WITH_YOUR_APIKEY in the URL has to be replaced with your individual API key that you receive after registering at [opencagedata.com](https://opencagedata.com/)
+The variable REPLACE_WITH_YOUR_APIKEY in the URL has to be replaced with your individual API key that you receive after registering at [opencagedata.com](https://opencagedata.com/)
 
 The function node right before the "http get request node" carries the code shown above.
