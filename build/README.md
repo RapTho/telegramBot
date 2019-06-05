@@ -8,7 +8,7 @@ Make sure you have all required IBM Cloud services instantiated and all node mod
 
 Copy the [node-red-complete-flow.json](https://github.com/RapTho/telegramBot/blob/master/build/node-red-complete-flow.json) content and import it into your Node-RED instance. See [how it's done](https://nodered.org/docs/user-guide/editor/workspace/import-export)
 
-Do the same for the [Watson Assistant JSON file](https://github.com/RapTho/telegramBot/blob/master/build/skill-Telegram_Bot.json). Do it like [this](https://developer.ibm.com/tutorials/learn-how-to-export-import-a-watson-assistant-workspace/) or in the Dashboard when creating a new skill (Watson Assistant Dashboard -> Skills -> Create Skill -> Import skill -> Choose JSON)
+Do the same for the [Watson Assistant JSON file](https://github.com/RapTho/telegramBot/blob/master/build/skill-Telegram_Bot.json). Do it like [this](https://developer.ibm.com/tutorials/learn-how-to-export-import-a-watson-assistant-workspace/) or in the Dashboard when creating a new skill: </br>Watson Assistant Dashboard -> Skills -> Create Skill -> Import skill -> Choose JSON
 
 In the IBM Cloud you can [connect your services to your Node-RED instance](https://cloud.ibm.com/docs/resources?topic=resources-connect_app). This saves you the copy and pasting of your API keys. You should connect the following services:
 - Cloudant database that was automatically created when instantiating Node-RED
