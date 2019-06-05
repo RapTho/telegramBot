@@ -15,7 +15,7 @@ In the IBM Cloud you can [connect your services to your Node-RED instance](https
 - Watson Visual Recognition
 - Watson Assistant
 - Watson Speech-to-Text
-- Weather Company Data<br/>
+- Weather Company Data  
 Otherwise just copy+paste your keys to the required nodes. The telegram nodes also need the API key and name of your bot. You get this information from the [botfather](https://core.telegram.org/bots) himself.
 
 Also the URL of the HTTP GET call to opencagedata, which translates the location from word to coordinates, needs to be modified the following way:
