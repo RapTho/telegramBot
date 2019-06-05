@@ -16,7 +16,7 @@ Also, you can dictate your bot something and it will transcribe the spoken words
 - Spanish
 - Japanese
 - Korean
-- Chinese (Mandarin)
+- Mandarin
 - Arabic
 
 ![Speech to Text](.ignoreImages/transcribe.gif)
