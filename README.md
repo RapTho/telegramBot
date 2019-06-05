@@ -2,7 +2,7 @@
 This is a code repo that shares my personal telegram bot. The bot is a side project I built combining IBM's Watson AI services and other third party APIs. The integration of all services happens on a [Node-RED](https://nodered.org/) server hosted in the [IBM Cloud](https://www.ibm.com/cloud/).</br>
 All of this is **possible with a free account**.
 
-So you might wonder what the bot is capable of doing? It can see, hear and understand in a way that resembles us humans. Check out the following demos...
+The bot's capabilities shown below can of course be used in many other use cases. So you might wonder what the bot is capable of doing? It can see, hear and understand in a way that resembles us humans. Check out the following demos...
 
 ## Recognize objects in images
 One of the bot's skills is to see what you see
