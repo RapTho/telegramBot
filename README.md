@@ -51,6 +51,6 @@ The following modules are required and can be installed directly in Node-RED (eq
 ## Final words
 The Node-RED server in this example is hosted on the IBM cloud but it can just as well run on any local device such as a Raspberry Pi or other servers/desktops/laptops as long as they have internet access. Check the [instructions](https://nodered.org/docs/getting-started/installation).
 
-Thanks to Node-RED and the well documented APIs it's really no rocket science. If you want to get started yourself, check out the [build folder](https://github.com/RapTho/telegramBot/tree/master/build) for instructions. Feel free to modify the existing project to your needs. In case you want me to integrate other skills, send me a message and I'll see what I can do.
+Thanks to Node-RED and the well documented APIs it's really no rocket science. If you want to get started yourself, check out the [build folder](https://github.com/RapTho/telegramBot/tree/master/build) for instructions. Feel free to modify the existing project to your needs. In case you want me to integrate other skills, [send me a message](https://www.linkedin.com/in/raphael-tholl/) and I'll see what I can do.
 
 So far not every possible user exception is caught and dealt with. Since it is just a demo, I left that out for now.
