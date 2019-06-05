@@ -10,7 +10,13 @@ Copy the [node-red-complete-flow.json](https://github.com/RapTho/telegramBot/blo
 
 Do the same for the [Watson Assistant JSON file](https://github.com/RapTho/telegramBot/blob/master/build/skill-Telegram_Bot.json). Do it like [this](https://developer.ibm.com/tutorials/learn-how-to-export-import-a-watson-assistant-workspace/) or in the Dashboard when creating a new skill (Watson Assistant Dashboard -> Skills -> Create Skill -> Import skill -> Choose JSON)
 
-In the IBM Cloud you can [connect your services to your Node-RED instance](https://cloud.ibm.com/docs/resources?topic=resources-connect_app). This saves you the copy and pasting of your API keys. Otherwise just copy+paste your keys to the required nodes. 
+In the IBM Cloud you can [connect your services to your Node-RED instance](https://cloud.ibm.com/docs/resources?topic=resources-connect_app). This saves you the copy and pasting of your API keys. You should connect the following services:
+- Cloudant database that was automatically created when instantiating Node-RED
+- Watson Visual Recognition
+- Watson Assistant
+- Watson Speech-to-Text
+- Weather Company Data
+Otherwise just copy+paste your keys to the required nodes. The telegram nodes also need the API key and name of your bot. You get this information from the [botfather](https://core.telegram.org/bots) himself.
 
 Also the URL of the HTTP GET call to opencagedata, which translates the location from word to coordinates, needs to be modified the following way:
 
