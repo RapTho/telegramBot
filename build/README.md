@@ -4,7 +4,7 @@
 ## How to get it up and running
 This is the complete flow as I use it. All the credentials have been removed before exporting the flow. 
 
-Make sure you have all required IBM Cloud services instantiated and all node modules installed. Check them [here](https://github.com/RapTho/telegramBot/blob/master/README.md#requirements)
+Make sure you have all required IBM Cloud services instantiated and all node modules installed. Check again [here](https://github.com/RapTho/telegramBot/blob/master/README.md#requirements)
 
 Copy the [node-red-complete-flow.json](https://github.com/RapTho/telegramBot/blob/master/build/node-red-complete-flow.json) content and import it into your Node-RED instance. See [how it's done](https://nodered.org/docs/user-guide/editor/workspace/import-export)
 
