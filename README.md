@@ -11,14 +11,7 @@ One of the bot's skills is to see what you see
 
 ## Transcribe user input in different languages
 Also, you can dictate your bot something and it will transcribe the spoken words for you. The supported languages are:
-- English
-- French
-- German
-- Spanish
-- Japanese
-- Korean
-- Mandarin
-- Arabic
+English | French | German | Spanish | Japanese | Korean | Mandarin | Arabic
 
 ![Speech to Text](.ignoreImages/transcribe.gif)
 
