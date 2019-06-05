@@ -56,3 +56,5 @@ The following modules are required and can be installed directly in Node-RED (eq
 
 ## Final words
 The Node-RED server in this example is hosted on the IBM cloud but it can just as well run on any local device such as a Raspberry Pi or other servers/desktops/laptops as long as they have internet access. Check the [instructions](https://nodered.org/docs/getting-started/installation).
+
+So far not every possible user exception is caught and dealt with. Since it is a demo I left that out for now.
