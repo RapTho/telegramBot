@@ -2,13 +2,14 @@
 This is a code repo that shares my personal telegram bot. The bot is a side project I built combining IBM's Watson AI services and third party APIs. The integration of all services happens on a [Node-RED](https://nodered.org/) server hosted in the [IBM Cloud](https://www.ibm.com/cloud/).</br>
 All of this is **possible with a free account**.
 
+So you might wonder what the bot is capable of doing? It can see, hear and understand in a way that resembles us humans. Check out the following demos...
 
-## Visual Recognition
+## Recognize objects in images
 One of the bot's skills is to see what you see
 
 ![Visual Recognition](.ignoreImages/visualRecognition.gif)
 
-## Speech to Text
+## Transcribe user input in different languages
 Also, you can dictate your bot something and it will transcribe the spoken words for you. The supported languages are:
 - English
 - French
@@ -21,13 +22,13 @@ Also, you can dictate your bot something and it will transcribe the spoken words
 
 ![Speech to Text](.ignoreImages/transcribe.gif)
 
-## Translation
+## Translate between different languages
 The bot can also assist you with translations. It will automatically detect which language the input has and translate it to the user desired output language.
 
 ![Translate](.ignoreImages/translate.gif)
 
-## Weather forecast
-Get the latest weather updates directly on your smartphone by asking your bot for it. The location is picked from your input and then translated into coordinates by a third party. These coordinates will be used to query the Weather Company database and return accurate results.
+## Give you a weather forecast at any location
+Get the latest weather updates by asking your bot for it. The location is picked from your input and then translated into coordinates by a third party. These coordinates will be used to query the Weather Company's database and return accurate results.
 
 ![Weather forecast](.ignoreImages/weather.gif)
 
@@ -57,4 +58,6 @@ The following modules are required and can be installed directly in Node-RED (eq
 ## Final words
 The Node-RED server in this example is hosted on the IBM cloud but it can just as well run on any local device such as a Raspberry Pi or other servers/desktops/laptops as long as they have internet access. Check the [instructions](https://nodered.org/docs/getting-started/installation).
 
-So far not every possible user exception is caught and dealt with. Since it is a demo I left that out for now.
+Thanks to Node-RED and the well documented APIs it's really no rocket science. If you want to get started yourself, check out the [build folder](https://github.com/RapTho/telegramBot/tree/master/build) for instructions. Feel free to modify the existing project to your needs. In case you want me to integrate other skills, send me a message and I'll see what I can do.
+
+So far not every possible user exception is caught and dealt with. Since it is just a demo, I left that out for now.
