@@ -37,7 +37,7 @@ The following IBM Cloud services need to be instantiated. Free/light plans are a
 - [Watson Visual Recognition](https://cloud.ibm.com/catalog/services/visual-recognition)
 - [Watson Speech-to-Text](https://cloud.ibm.com/catalog/services/speech-to-text)
 - [Watson Language Translator](https://cloud.ibm.com/catalog/services/language-translator)
-- Weather Company Data (UPDATE 08.11.2019: Service no longer available IBM Cloud. Get an API Key elsewhere)
+- Weather Company Data (UPDATE 08.11.2019: Service no longer available IBM Cloud. Get an API key elsewhere)
 - [Node-RED](https://cloud.ibm.com/catalog/starters/node-red-starter)
 
 ## Node packages (from npm repository)
