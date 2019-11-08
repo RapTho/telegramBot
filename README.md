@@ -32,12 +32,12 @@ Get the latest weather updates by asking your bot for it. The location is picked
 - The [Telegram messenger](https://telegram.org/) installed on your smartphone
 
 ## IBM Cloud services
-The following IBM Cloud services need to be instantiated. Free/light plans are always sufficient. No need to add any payment method. Students can get more resources [here](https://ibm.onthehub.com/WebStore/OfferingDetails.aspx?o=142ecca8-0403-e911-810e-000d3af41938).
+The following IBM Cloud services need to be instantiated. Free/light plans are always sufficient. No need to add any payment method. 
 - [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant)
 - [Watson Visual Recognition](https://cloud.ibm.com/catalog/services/visual-recognition)
 - [Watson Speech-to-Text](https://cloud.ibm.com/catalog/services/speech-to-text)
 - [Watson Language Translator](https://cloud.ibm.com/catalog/services/language-translator)
-- [Weather Company Data](https://cloud.ibm.com/catalog/services/weather-company-data)
+- Weather Company Data (UPDATE 08.11.2019: Service no longer available IBM Cloud. Get an API Key elsewhere)
 - [Node-RED](https://cloud.ibm.com/catalog/starters/node-red-starter)
 
 ## Node packages (from npm repository)
